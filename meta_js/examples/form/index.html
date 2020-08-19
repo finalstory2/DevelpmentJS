@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events form</title>
+    <script src="./script_dom.js"></script>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            float: left;
+            margin: 20px;
+        }
+        
+        .dashed {
+            border: dashed 1px black;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        <form action="#" id="form" onsubmit="return false;">
+            <input type="text" name="nombre" id="name" placeholder="Nombre:">
+            <br>
+            <input type="text" name="apellido" id="surname" placeholder="Apellido:">
+            <br>
+            <input type="text" name="edad" id="age" placeholder="Edad:">
+            <br>
+            <input type="submit" value="Enviar" id="submit">
+        </form>
+    </p>
+    <div class="box dashed" id="box_dashed">
+        <h3>Informacion del usuario</h3>
+        <hr>
+    </div>
+
+</body>
+
+</html>
