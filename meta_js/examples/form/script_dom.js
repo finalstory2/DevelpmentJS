@@ -13,6 +13,34 @@ window.addEventListener('load', () => {
 
         box_dashed.style.display = "block";
 
+        function validation() {
+            if (name.trim() == null) {
+                alert('Name is undefined');
+                if (name.trim().lenght == 0) {
+                    alert('The name need one or more characters');
+                }
+            }
+
+            if (surname.trim() == null) {
+                alert('Name is undefined');
+                if (surname.trim().lenght == 0) {
+                    alert('The name need one or more characters');
+                }
+            }
+
+            if (age == null) {
+                alert('Name is undefined');
+                if (age.trim().lenght <= 0) {
+                    alert('The name need one or more characters');
+                    if (isNaN(age)) {
+                        alert('Age is not a number');
+                    }
+                }
+            }
+            return false
+        }
+        validation();
+
 
         var indice;
         for (indice in UserData) {
