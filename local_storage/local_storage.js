@@ -28,4 +28,8 @@ window.addEventListener('load', () => {
     var userJs = (JSON.parse(localStorage.getItem("user")));
     document.querySelector("#movies").append(" ," + userJs.name)
 
+    //Clean local Storage
+
+    localStorage.clear;
+
 });
