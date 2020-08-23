@@ -8,5 +8,5 @@ $(document).ready(function() {
     });
 
     //date picker
-    $('#calendar').datepicker();
+    $('#calendar').datepiker();
 });

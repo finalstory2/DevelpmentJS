@@ -1,0 +1,34 @@
+body {
+    background: url('../img/hojas.jpg');
+    background-attachment: fixed;
+}
+
+.global {
+    width: 65%;
+    max-width: 1000px;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    margin: 0 auto;
+    box-shadow: 0px 0px 2px grey;
+}
+
+* {
+    margin: 0px;
+}
+
+.clear_fix {}
+
+#logo {
+    font-family: Verdana, Arial, Helvetica, sans-serif, Tahoma, sans-serif;
+    font-size: 30px;
+    letter-spacing: 4px;
+    background-color: springgreen;
+    color: white;
+    text-align: center;
+    width: 389px;
+    height: 80px;
+    float: left;
+    margin-bottom: 20px;
+    line-height: 80px;
+}
