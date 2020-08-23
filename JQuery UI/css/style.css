@@ -9,6 +9,7 @@
     justify-content: center;
     background: lightblue;
     color: lightcoral;
+    margin-bottom: 40px;
 }
 
 .container {
@@ -81,4 +82,9 @@ ul .ui-selected {
     margin-bottom: 500px;
     flex-direction: column;
     align-items: center;
+}
+
+.box_effects {
+    display: none;
+    float: none;
 }
