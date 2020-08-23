@@ -43,6 +43,6 @@ ul .ui-selecting {
 }
 
 ul .ui-selected {
-    background: blue;
+    background: rgb(68, 130, 155);
     color: white;
 }
