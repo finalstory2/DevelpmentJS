@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+
     //Mover elemento por la pagina
     $('.element').draggable();
 
@@ -11,6 +13,13 @@ $(document).ready(function() {
             console.log('List changed');
             console.log(event + '_' + ui);
             console.log(event);
+        }
+    });
+    $('#moved_elemnt').draggable();
+    $('#area').droppable({
+        drop: function() {
+            console.log("Has soltado algo dentro");
+            $('#moved_elemnt').css('display', 'none');
         }
     });
 });

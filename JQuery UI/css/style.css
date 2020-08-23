@@ -46,3 +46,39 @@ ul .ui-selected {
     background: rgb(68, 130, 155);
     color: white;
 }
+
+.moved_elemnt {
+    display: inline-flex;
+    height: 200px;
+    width: 200px;
+    border: 1px solid grey;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background: lightblue;
+    text-align: center;
+    color: lightcoral;
+}
+
+.area {
+    display: inline-flex;
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    border: 1px solid grey;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background: lightblue;
+    text-align: center;
+    color: lightcoral;
+}
+
+.dropeable {
+    display: flex;
+    margin-bottom: 500px;
+    flex-direction: column;
+    align-items: center;
+}
