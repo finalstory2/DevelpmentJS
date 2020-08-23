@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQ UI</title>
+    <link rel="stylesheet" href="../JQuery-ui-1.12.1/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="../JQuery-ui-1.12.1/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="../JQuery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <h1>Plugin and widgets</h1>
+    <p>
+        script src="./js/jquery_widgets.js"
+        <br> script src="./js/jquery_plugins.js"
+    </p>
+    <hr>
+
+    <div class="container">
+        <h2>Tooltip</h2>
+        <a href="#" id='data' title="Entry to a seccion for see my personal data">-My data-</a>
+        <a href="#" id='data' title="Entry to a seccion for see your personal data">-Your personal data-</a>
+
+        <h2>Dialog boxes</h2>
+        <button id="btn_see_popup">See PopUp</button>
+        <div class="popup" id="popup" title="Are you sure?" style="display: none">
+            <p>The clonazepan is a good drug for the free time.</p>
+        </div>
+
+        <h2>Calendar</h2>
+        <input type="text" id="calendar">
+
+        <h2>Tabs</h2>
+        <div id="tabs">
+            <ul>
+                <li>
+                    <a href="#tabs-1">Frist Tab</a>
+                </li>
+                <li>
+                    <a href="#tabs-2">Second Tab</a>
+                </li>
+                <li>
+                    <a href="#tabs-3">Third Tab</a>
+                </li>
+            </ul>
+            <div id="tabs-1">
+                Loading . . .
+            </div>
+            <div id="tabs-2">
+                Loading . . .
+            </div>
+            <div id="tabs-3">
+                Loading . . .
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="../JQuery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="./js/jquery_widgets.js"></script>
+    <script src="./js/jquery_plugins.js"></script>
+</body>
+
+</html>

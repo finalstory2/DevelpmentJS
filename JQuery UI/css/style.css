@@ -1,4 +1,37 @@
-.element {
+h1 {
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 50px;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    margin: 40px 0;
+}
+
+h2 {
+    text-align: center;
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container a {
+    font-size: 25px;
+    text-decoration: none;
+    color: springgreen;
+}
+
+
+/* .element {
     display: inline-flex;
     height: 200px;
     width: 30%;
@@ -12,16 +45,8 @@
     margin-bottom: 40px;
 }
 
-.container {
-    display: flex;
-    justify-content: space-around;
-}
 
-h1 {
-    text-align: center;
-    margin: 40px 0px;
-    font-size: 30px;
-}
+
 
 #list {
     display: flex;
@@ -87,4 +112,4 @@ ul .ui-selected {
 .box_effects {
     display: none;
     float: none;
-}
+} */
