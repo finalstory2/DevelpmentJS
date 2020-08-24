@@ -50,8 +50,6 @@ $(document).ready(function() {
         $('#posts').append(post);
     });
 
-
-
     // <article class="post">
     //     <h2>Title of article</h2>
     //     <span class="date">Publish date</span>
@@ -61,4 +59,18 @@ $(document).ready(function() {
     //     <a href="" class="button_more">Read more</a>
     //     <div class="line"></div>
     // </article>
+
+    //theme selector
+
+    var theme = $('#theme');
+
+    $('#to_green').click(function() {
+        theme.attr('href', 'css/green.css')
+    });
+    $('#to_red').click(function() {
+        theme.attr('href', 'css/red.css')
+    });
+    $('#to_blue').click(function() {
+        theme.attr('href', 'css/blue.css')
+    });
 });
