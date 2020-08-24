@@ -1,0 +1,20 @@
+body {
+    background: url('../img/cielo.jpg');
+    background-attachment: fixed;
+}
+
+#logo {
+    background-color: steelblue;
+}
+
+#menu ul li:hover {
+    background: steelblue;
+}
+
+.button_more {
+    background-color: steelblue;
+}
+
+form input[type='submit'] {
+    background: steelblue;
+}
