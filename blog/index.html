@@ -5,6 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog JS-JQ</title>
+    <!-- slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!-- Moment.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js" integrity="sha512-rmZcZsyhe0/MAjquhTgiUcb4d9knaFc7b5xAfju483gbEXTkeJRUMIPk6s3ySZMYUHEcjKbjLjyddGWMrNEvZg==" crossorigin="anonymous"></script>
+
+    <!-- main js -->
+    <script src="./js/main.js"></script>
+
+    <!-- main styles -->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -29,45 +41,34 @@
             </nav>
         </header>
 
+
+
         <!-- slider -->
 
-        <div id="slider">
-
+        <div id="slider" class="slider">
+            <div class="galery">
+                <div><img src="./img/hojas.jpg" alt="" title="Leafs of nothing"></div>
+                <div><img src="./img/rojo.jpg" alt="" title="Only red color"></div>
+                <div><img src="./img/cielo.jpg" alt="" title="The sky in the nothing"></div>
+            </div>
         </div>
 
         <!-- content -->
 
         <section id="content">
             <div id="posts">
-                <article class="post">
-                    <h2>Title of article</h2>
-                    <span class="date">Publish date</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa neque animi nesciunt delectus, distinctio similique quisquam ullam possimus quas sed maxime magnam saepe totam placeat. Accusantium debitis nobis maxime deserunt, provident,
-                        eveniet asperiores necessitatibus libero autem ut nesciunt iste, inventore dolores et ratione dolorem sequi vel distinctio officia adipisci. Delectus deleniti dolorum fugit id unde voluptatem libero architecto excepturi quam minima
-                        optio error dolore corrupti, est exercitationem vel nihil ullam?</p>
-                    <a href="" class="button_more">Read more</a>
-                    <div class="line"></div>
-                </article>
-                <article class="post">
-                    <h2>Title of article</h2>
-                    <span class="date">Publish date</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa neque animi nesciunt delectus, distinctio similique quisquam ullam possimus quas sed maxime magnam saepe totam placeat. Accusantium debitis nobis maxime deserunt, provident,
-                        eveniet asperiores necessitatibus libero autem ut nesciunt iste, inventore dolores et ratione dolorem sequi vel distinctio officia adipisci. Delectus deleniti dolorum fugit id unde voluptatem libero architecto excepturi quam minima
-                        optio error dolore corrupti, est exercitationem vel nihil ullam?</p>
-                    <a href="" class="button_more">Read more</a>
-                    <div class="line"></div>
-                </article>
-                <article class="post">
-                    <h2>Title of article</h2>
-                    <span class="date">Publish date</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa neque animi nesciunt delectus, distinctio similique quisquam ullam possimus quas sed maxime magnam saepe totam placeat. Accusantium debitis nobis maxime deserunt, provident,
-                        eveniet asperiores necessitatibus libero autem ut nesciunt iste, inventore dolores et ratione dolorem sequi vel distinctio officia adipisci. Delectus deleniti dolorum fugit id unde voluptatem libero architecto excepturi quam minima
-                        optio error dolore corrupti, est exercitationem vel nihil ullam?</p>
-                    <a href="" class="button_more">Read more</a>
-                    <div class="line"></div>
-                </article>
 
+                <!-- load post of JSON -->
 
+                <!-- <article class="post">
+                    <h2>Title of article</h2>
+                    <span class="date">Publish date</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa neque animi nesciunt delectus, distinctio similique quisquam ullam possimus quas sed maxime magnam saepe totam placeat. Accusantium debitis nobis maxime deserunt, provident,
+                        eveniet asperiores necessitatibus libero autem ut nesciunt iste, inventore dolores et ratione dolorem sequi vel distinctio officia adipisci. Delectus deleniti dolorum fugit id unde voluptatem libero architecto excepturi quam minima
+                        optio error dolore corrupti, est exercitationem vel nihil ullam?</p>
+                    <a href="" class="button_more">Read more</a>
+                    <div class="line"></div>
+                </article> -->
             </div>
             <aside id="sidebar">
                 <div id="about">
@@ -102,7 +103,7 @@
     <footer>
         Made for Finalstory2
     </footer>
-    <script src="./js/main.js"></script>
+
 </body>
 
 </html>

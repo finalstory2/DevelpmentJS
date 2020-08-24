@@ -175,3 +175,8 @@ footer {
     padding: 20px;
     margin: 40px auto;
 }
+
+.bx-wrapper,
+.bx-viewport {
+    height: 250px !important;
+}
