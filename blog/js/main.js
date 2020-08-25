@@ -105,5 +105,9 @@ $(document).ready(function() {
         });
     }
 
+    //Acordeon about JQuery UI
+
+
+
 
 });
