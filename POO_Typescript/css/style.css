@@ -1,0 +1,15 @@
+/* .paragraph h1 {
+    text-align: center;
+}
+
+.paragraph p {
+    text-align: center;
+} */
+
+.paragraph {
+    text-align: center;
+    color: white;
+    background: steelblue;
+    padding: 10px;
+    border-bottom: 2px solid turquoise;
+}
