@@ -11,6 +11,8 @@ $(document).ready(function() {
 
     //Posts
 
+    //
+
     var posts = [{
             title: 'Title of article',
             date: new moment().format("MMMM Do YYYY"),
