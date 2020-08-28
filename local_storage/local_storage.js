@@ -32,4 +32,6 @@ window.addEventListener('load', () => {
 
     localStorage.clear;
 
+    //new comentary
+
 });
