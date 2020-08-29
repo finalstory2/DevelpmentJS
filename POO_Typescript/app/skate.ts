@@ -37,8 +37,7 @@ let nike_red = new TShirt('red', 'bucana', 'nike', 20);
 
 nike_blue.color = 'blue';
 nike_blue.branch = 'nike';
-nike_blue.change_size(10);
-console.log(nike_blue);
+nike_blue.set_size(10);
 
 
 

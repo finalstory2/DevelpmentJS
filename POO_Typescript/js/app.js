@@ -1,25 +1,34 @@
 "use strict";
+
 function getNumber(number_2) {
     if (number_2 === void 0) { number_2 = 2; }
     return "The number is " + number_2;
 }
-var TShirt = /** @class */ (function () {
+//import { Skate } from './skate';
+var Main = /** @class */ (function() {
+    function Main() {
+        console.log('Aplication load . . .');
+    }
+    return Main;
+}());
+var main = new Main();
+var TShirt = /** @class */ (function() {
     function TShirt(color, model, branch, size) {
         this.color = color;
         this.model = model;
         this.branch = branch;
         this.size = size;
     }
-    TShirt.prototype.set_model = function (model) {
+    TShirt.prototype.set_model = function(model) {
         this.model = model;
     };
-    TShirt.prototype.get_model = function () {
+    TShirt.prototype.get_model = function() {
         return this.model;
     };
-    TShirt.prototype.set_size = function (new_size) {
+    TShirt.prototype.set_size = function(new_size) {
         this.size = new_size;
     };
-    TShirt.prototype.get_color = function () {
+    TShirt.prototype.get_color = function() {
         return this.size;
     };
     return TShirt;
@@ -28,8 +37,7 @@ var nike_blue = new TShirt(null, null, null, null);
 var nike_red = new TShirt('red', 'bucana', 'nike', 20);
 nike_blue.color = 'blue';
 nike_blue.branch = 'nike';
-nike_blue.change_size(10);
-console.log(nike_blue);
+nike_blue.set_size(10);
 var nombre = "felipe";
 //letibales and datatypes
 var chain = 'chain';
