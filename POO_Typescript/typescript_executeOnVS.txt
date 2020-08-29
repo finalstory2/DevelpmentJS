@@ -41,7 +41,7 @@
     "./app/app.ts"
   ]
 
-Aca se define ddonde va a estar el archivo de typescript
+Aca se define donde va a estar el archivo de typescript
 
 7- Se agrega para que en cada cambio typescript siga trabbajando en el archivo generado llamado tsconfig.json
 
