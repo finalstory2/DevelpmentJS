@@ -29,3 +29,5 @@ String_number = 10;
 type letter_numbers = string | number;
 
 let letter_number: letter_numbers = 10;
+
+//coment ramdom

@@ -15,3 +15,4 @@ console.log(array_type_array_any);
 var String_number = 'red';
 String_number = 10;
 var letter_number = 10;
+//coment ramdom
