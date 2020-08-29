@@ -5,8 +5,17 @@ var TShirt = /** @class */ (function () {
         this.branch = branch;
         this.size = size;
     }
-    TShirt.prototype.change_size = function (new_size) {
+    TShirt.prototype.set_model = function (model) {
+        this.model = model;
+    };
+    TShirt.prototype.get_model = function () {
+        return this.model;
+    };
+    TShirt.prototype.set_size = function (new_size) {
         this.size = new_size;
+    };
+    TShirt.prototype.get_color = function () {
+        return this.size;
     };
     return TShirt;
 }());

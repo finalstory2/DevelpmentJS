@@ -13,8 +13,21 @@ class TShirt{
         this.size = size;
     }
 
-    public change_size(new_size: number){
+    public set_model(model: string){
+        this.model = model;
+    }
+
+    public get_model(){
+        return this.model; 
+    }
+
+
+    public set_size(new_size: number){
         this.size = new_size;
+    }
+
+    public get_color(){
+        return this.size; 
     }
 
 }
