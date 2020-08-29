@@ -1,0 +1,60 @@
+1- npm init (Para dejar de fabrica npm)
+    1.1- Dejar todos los campos limpios o rellenarlos en caso de que sea un proyecto
+            package name: (poo_typescript)
+            version: (1.0.0)
+            description:
+            entry point: (index.js)
+            test command:
+            git repository:
+            keywords:
+            author:
+            license: (ISC)
+2- npm init (Inicializar el servidor de typescript)
+3- Modificar el archivo package.json "creado apartir del comando anterior.
+
+    Remplazar esto: 
+
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+
+    Por esto: 
+
+    "scripts": {
+        "start": "http-server -p 3002"
+    },
+
+    Que se define?
+    "start": "http-server -p 3002"
+    "start": "(Server) -p (puerto)"
+
+4- npm install -g typescript (instalar typescript en los ficheros)
+
+5- tcc --init
+    5.1- tcc=Compilador de typescript
+
+6- Agregar el siguiente onjeto en el archivo generado llamado tsconfig.json
+
+ },
+
+  "file": [
+    "./app/app.ts"
+  ]
+
+Aca se define ddonde va a estar el archivo de typescript
+
+7- Se agrega para que en cada cambio typescript siga trabbajando en el archivo generado llamado tsconfig.json
+
+"watch": true,
+
+8- Se agrega el archivo js a donde va ir dirijido en el archivo generado llamado tsconfig.json
+
+"outFile": "./js/app.js",     
+
+9- Ejecutador de typescript 
+
+tsc
+
+10 - npm start - Iniciar typescript 
+
+

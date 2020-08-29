@@ -1,0 +1,16 @@
+{
+    "name": "poo_typescript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "http-server -p 3002"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "http": "0.0.1-security",
+        "http-server": "^0.12.3",
+        "server": "^1.0.30"
+    }
+}
