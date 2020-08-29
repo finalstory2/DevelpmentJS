@@ -1,4 +1,3 @@
 "use strict";
 
-var nombre = "felipe";
-console.log(nombre);
+var nombre = "felipe"; //Varibales and datatypes
